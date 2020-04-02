@@ -1,0 +1,14 @@
+body{max-width: 1300px;margin: auto;background: #cee7f5;text-align: center;}
+
+nav {background: white;height: 50px;}
+nav ul {display: flex;flex-direction: row; justify-content: flex-end; align-items: center; }
+nav ul li {list-style-type: none; padding: 10px;display: flex;}
+nav ul li a {text-decoration: none;}
+
+#request-form {width: 500px;}
+#icao-code * {display: block; width: 100%; margin: auto;}
+#send-button {background: #6dc067;border-radius: 5px; float: right;}
+#result {display: none;}
+.error {color: red;}
+
+table td {font-size: 0.7em;}
